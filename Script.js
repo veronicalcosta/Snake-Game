@@ -44,11 +44,11 @@ function draw() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
   
   // Draw the snake
-  ctx.fillStyle = "green";
+  ctx.fillStyle = "purple";
   snake.forEach(part => ctx.fillRect(part.x, part.y, gridSize, gridSize));
   
   // Draw the food
-  ctx.fillStyle = "red";
+  ctx.fillStyle = "pink";
   ctx.fillRect(food.x, food.y, gridSize, gridSize);
 }
 
